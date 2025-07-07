@@ -42,7 +42,7 @@ if ($result->num_rows > 0) {
         </p>
 
         <div class="post-content">
-            <?php echo nl2br(htmlspecialchars($post['content'])); ?>
+            <?php echo $post['content']; // htmlspecialchars 함수와 nl2br 함수를 제거합니다. ?>
         </div>
 
         <hr style="margin-top: 20px;">
