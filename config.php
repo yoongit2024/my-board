@@ -1,6 +1,6 @@
 <?php
 // 데이터베이스 연결 정보
-$host = "localhost"; // 호스트 (우리가 바꾼 포트 번호 명시)
+$host = "yoon25.dothome.co.kr"; // 호스트 (우리가 바꾼 포트 번호 명시)
 $user = "yoon25";          // 사용자 이름
 $password = "wjsghkqkedj1212!";          // 비밀번호 (우리는 비워두기로 했죠)
 $db_name = "yoon25"; // 우리가 만든 데이터베이스 이름
